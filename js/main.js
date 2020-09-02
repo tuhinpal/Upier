@@ -40,6 +40,23 @@ function copyLink() {
 	document.getElementById("copiedtext").style.visibility = "visible";
 }
 
+function share(){
+  if (navigator.share) {
+    navigator.share({
+      title: 'Share | Upier',
+      text: "*Upier* \n\nShareable Secure Payment's Link for UPI :\n",
+      url: window.location.href
+    }).then(() => {
+      console.log('Thanks for sharing!');
+    })
+    .catch(err => {
+      console.log(`Couldn't share because of`, err.message);
+    });
+  } else {
+    console.log('web share not supported');
+  }
+}
+  
 /*!
  * Made by Tuhin Kanti Pal
  * Visit https://tu.hin.life
