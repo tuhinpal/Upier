@@ -1,0 +1,355 @@
+/**
+ * Made by Tuhin Kanti Pal
+ * Visit https://tu.hin.life
+ */
+
+body {
+	-youbkit-touch-callout: none;
+	-youbkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background: #ffffff;
+}
+
+.headerdiv {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 340px;
+	height: 55px;
+	background: white;
+	border-radius: 0px;
+}
+
+.contentdiv {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 340px;
+	height: 645px;
+	background: #000000;
+	border-radius: 10px;
+}
+
+.inputdiv {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 310px;
+	height: 270px;
+	background: #ffffff;
+	border-radius: 13px;
+}
+
+.outputdiv {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 310px;
+	height: 270px;
+	background: #ffffff;
+	border-radius: 13px;
+}
+
+.footerdiv {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 340px;
+	height: 220px;
+	background: #ffffff;
+	border-radius: 0px;
+}
+
+.heading {
+	color: #000000;
+	font-family: Poppins;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: left;
+	padding: 12px 0px;
+}
+
+.shareicon {
+	transform: translate(305px, -76px);
+}
+
+.center {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	color: #000000;
+	font-family: 'Bitter', serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 12px 0px;
+}
+
+.slogan {
+	color: #000000;
+	font-family: Poppins;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	transform: translate(0px, -22px);
+}
+
+.upilogo {
+	transform: translate(0px, 6px);
+}
+
+.tuhin {
+	color: #000000;
+	font-family: Poppins;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	transform: translate(0px, -5px);
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.logowhite {
+	color: #ffffff;
+	font-family: 'Bitter', serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 12px 0px;
+}
+
+.errtxt {
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tpf {
+	color: #000000;
+	font-family: 'Bitter', serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	transform: translate(0px, -20px);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.headingw {
+	color: #ffffff;
+	font-family: Krona One;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	padding: 22px 20px;
+}
+
+.inputbox {
+	font-size: 18px;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #f0f0f0;
+	color: #000000;
+	border-style: none;
+	padding: 0px 13px;
+	font-family: Poppins;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	width: 240px;
+	height: 40px;
+	border-radius: 15px;
+}
+
+.inputbox:focus {
+	outline: none;
+}
+
+.createb {
+	background: linear-gradient(to bottom, #00000 5%, #827982 100%);
+	background-color: #212021;
+	border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	height: 26px;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 8px 25px;
+	text-decoration: none;
+}
+
+.createb:hover {
+	background: linear-gradient(to bottom, #827982 5%, #212021 100%);
+	background-color: #827982;
+}
+
+.createb:active {
+	position: relative;
+	top: 1px;
+}
+
+.pdetailupiid {
+	color: #000000;
+	font-family: Krona One;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+}
+
+.amountdiv {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	width: 240px;
+	height: 50px;
+	background: #ffffff;
+	padding-bottom: 30px;
+	border-radius: 0px;
+}
+
+.pdetailamount {
+	color: #000000;
+	font-family: Krona One;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+}
+
+.amountbox {
+	font-size: 18px;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #f0f0f0;
+	color: #000000;
+	border-style: none;
+	padding: 0px 13px;
+	font-family: Poppins;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	width: 70px;
+	height: 35px;
+	border-radius: 15px;
+}
+
+.inputbox:focus {
+	outline: none;
+}
+
+.smalltext {
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	transform: translate(0px, 0px);
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+}
+
+.vsmalltext {
+	color: #000000;
+	font-family: Poppins;
+	font-size: 8px;
+	font-weight: bold;
+	text-align: left;
+	transform: translate(35px, -25px);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.gocless {
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	transform: translate(0px, 0px);
+}
+
+.india {
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 6px;
+	font-weight: bold;
+	text-align: center;
+	transform: translate(0px, -25px);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.paymentlinktxt {
+	color: #000000;
+	font-family: Krona One;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+.copiedtxt {
+	color: #000000;
+	font-family: Poppins;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	transform: translate(0px, -5px);
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.invalidtext {
+	color: #000000;
+	font-family: Poppins;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	transform: translate(0px, -150px);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+
+/**
+ * Made by Tuhin Kanti Pal
+ * Visit https://tu.hin.life
+ */
