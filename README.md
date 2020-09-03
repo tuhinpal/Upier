@@ -38,7 +38,7 @@ document.getElementById("qrcode").src = "https://svgqr.upier.tk/fg=000000/bg=fff
 document.getElementById("qrcode").src = "https://example.com/fg=000000/bg=ffffff/max=100?" + upilink;
 ```
 *4. Create Your own Qr Generator Workers, [Installation Instruction Here](https://github.com/u32i64/qr-worker "Here").* <br>
-**You can Customize it However you Like  **👍. **But don't Forget to give a Footer Credit **😉.<br><br>
+**You can Customize it However you Like**👍. **But don't Forget to give a Footer Credit**😉.<br><br>
 
 
 ### Credits:
