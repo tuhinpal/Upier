@@ -44,7 +44,7 @@ document.getElementById("qrcode").src = "https://example.com/fg=000000/bg=ffffff
 ### Credits:
 [Qr Worker](https://github.com/u32i64/qr-worker "Qr Worker") by [u32i64](https://github.com/u32i64/ "u32i64").<br>
 Idea from [Upayi](https://github.com/cyberboysumanjay/upayi "Upayi") by [Sumanjay](https://github.com/cyberboysumanjay/ "Sumanjay")<br>
-Designed & Developed by [Me (Tuhin)](https://github.com/cachecleanerjeet "Me (Tuhin)")
+Designed & Developed to [Me (Tuhin)](https://github.com/cachecleanerjeet "Me (Tuhin)")
 
 <br><br>
 
