@@ -1,5 +1,5 @@
 <h3 align="center"># Go Cashless</h3>
-<p align="center"> <b>Made by [Tuhin](https://github.com/cachecleanerjeet "Tuhin") in 🇮🇳 for 🇮🇳</b></p>
+<p align="center"> <b>Made by <a href="https://github.com/cachecleanerjeet">Tuhin</a> in 🇮🇳 for 🇮🇳</b></p>
 <br><br>
 <p align="center"> <b>My Website & Social</b></p>
 <br>
