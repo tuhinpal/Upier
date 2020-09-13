@@ -13,10 +13,10 @@ if (virpa == null) {
 	var vpa = params.get('vpa');
 	if (am == null) {
 		document.getElementById("payingam").innerHTML = "You are paying";
-		var upilink = "upi://pay?pa=" + vpa + "&cu=INR&tn=Pay using upier.tk";
+		var upilink = "upi://pay?pa=" + vpa + "&cu=INR";
 	} else {
 		var amount = params.get('amount');
-		var upilink = "upi://pay?pa=" + vpa + "&cu=INR&tn=Pay using upier.tk" + "&am=" + amount;
+		var upilink = "upi://pay?pa=" + vpa + "&cu=INR" + "&am=" + amount;
 		document.getElementById("payingam").innerHTML = "You are paying " + amount + "₹";
 
 	}
