@@ -13,7 +13,7 @@ if (virpa == null) {
 	var vpa = params.get('vpa');
 	if (am == null) {
 		document.getElementById("payingam").innerHTML = "You are paying";
-		var upilink = "upi://pay?pn=UPIER&pa=" + vpa + "&cu=INR";
+		var upilink = "upi://pay?pa=" + vpa + "&cu=INR";
 	} else {
 		var amount = params.get('amount');
 		var upilink = "upi://pay?pn=UPIER&pa=" + vpa + "&cu=INR" + "&am=" + amount;
