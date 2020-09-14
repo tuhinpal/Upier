@@ -27,7 +27,6 @@ body {
 	margin-right: auto;
 	margin-top: 10px;
 	width: 340px;
-	height: 645px;
 	background: #000000;
 	border-radius: 10px;
 }
@@ -82,33 +81,23 @@ body {
 	font-weight: bold;
 	text-align: center;
 	transform: translate(0px, -22px);
-	padding-top: 0px;
-	padding-right: 0px;
 	padding-bottom: 15px;
-	padding-left: 0px;
 }
 
 .payingtext {
 	color: #ffffff;
-	font-family: Poppins;
-	font-size: 20px;
+	font-family: Krona One;
+	font-size: 16px;
 	text-align: center;
-	padding-top: 2px;
-	padding-right: 0px;
+	padding-top: 0px;
 	font-weight: bold;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 .vpatext {
 	color: #ffffff;
-	font-family: Poppins;
-	font-size: 15px;
+	font-family: Krona One;
+	font-size: 12px;
 	text-align: center;
-	padding-top: 2px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 	font-weight: bold;
 }
 
