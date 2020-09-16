@@ -3,7 +3,7 @@
  * Visit https://tu.hin.life
  */
 
-var domain_name = "upier.tk";
+var domain_name = "upier.org";
 
 function hideF() {
 	document.getElementById("outputd").style.display = "none";
