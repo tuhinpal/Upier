@@ -19,7 +19,6 @@ body {
 	width: 340px;
 	height: 55px;
 	background: white;
-	border-radius: 0px;
 }
 
 .contentdiv {
@@ -59,7 +58,6 @@ body {
 	width: 340px;
 	height: 220px;
 	background: #ffffff;
-	border-radius: 0px;
 }
 
 .heading {
@@ -112,9 +110,6 @@ body {
 	text-align: center;
 	transform: translate(0px, -5px);
 	padding-top: 10px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 .logowhite {
@@ -141,10 +136,6 @@ body {
 	font-weight: bold;
 	text-align: center;
 	transform: translate(0px, -20px);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 .headingw {
@@ -217,12 +208,10 @@ body {
 .amountdiv {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 0px;
 	width: 240px;
 	height: 50px;
 	background: #ffffff;
 	padding-bottom: 30px;
-	border-radius: 0px;
 }
 
 .pdetailamount {
@@ -232,9 +221,7 @@ body {
 	font-weight: bold;
 	text-align: center;
 	padding-top: 5px;
-	padding-right: 0px;
 	padding-bottom: 2px;
-	padding-left: 0px;
 }
 
 .amountbox {
@@ -278,10 +265,6 @@ body {
 	font-weight: bold;
 	text-align: left;
 	transform: translate(35px, -25px);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 .gocless {
@@ -290,11 +273,8 @@ body {
 	font-size: 20px;
 	text-align: center;
 	font-weight: bold;
-	padding-top: 0px;
 	padding-right: 15px;
-	padding-bottom: 0px;
 	padding-left: 15px;
-	transform: translate(0px, 0px);
 }
 
 .india {
@@ -304,10 +284,6 @@ body {
 	font-weight: bold;
 	text-align: center;
 	transform: translate(0px, -25px);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 .paymentlinktxt {
@@ -330,9 +306,6 @@ body {
 	text-align: center;
 	transform: translate(0px, -5px);
 	padding-top: 5px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 .invalidtext {
@@ -342,10 +315,6 @@ body {
 	font-weight: bold;
 	text-align: center;
 	transform: translate(0px, -150px);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 

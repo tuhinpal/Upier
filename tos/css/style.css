@@ -19,7 +19,6 @@ body {
 	width: 340px;
 	height: 70px;
 	background: white;
-	border-radius: 0px;
 }
 
 .contentdiv {
@@ -39,7 +38,6 @@ body {
 	width: 340px;
 	height: 220px;
 	background: #ffffff;
-	border-radius: 0px;
 }
 
 .heading {
@@ -88,9 +86,6 @@ body {
 	text-align: center;
 	transform: translate(0px, -5px);
 	padding-top: 10px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 .tpf {
@@ -100,10 +95,6 @@ body {
 	font-weight: bold;
 	text-align: center;
 	transform: translate(0px, -20px);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 .txt {
@@ -113,7 +104,6 @@ body {
 	text-align: center;
 	padding-top: 20px;
 	padding-right: 10px;
-	padding-bottom: 0px;
 	padding-left: 10px;
 }
 
@@ -123,9 +113,7 @@ body {
 	font-size: 15px;
 	text-align: right;
 	font-weight: bold;
-	padding-top: 0px;
 	padding-right: 10px;
-	padding-bottom: 0px;
 	padding-left: 10px;
 }
 
@@ -135,9 +123,7 @@ body {
 	font-size: 8px;
 	text-align: right;
 	font-weight: bold;
-	padding-top: 0px;
 	padding-right: 10px;
-	padding-bottom: 0px;
 	padding-left: 10px;
 	transform: translate(0px, -15px);
 }
@@ -148,11 +134,8 @@ body {
 	font-size: 20px;
 	text-align: center;
 	font-weight: bold;
-	padding-top: 0px;
 	padding-right: 15px;
-	padding-bottom: 0px;
 	padding-left: 15px;
-	transform: translate(0px, 0px);
 }
 
 .india {
@@ -162,10 +145,6 @@ body {
 	font-weight: bold;
 	text-align: center;
 	transform: translate(0px, -25px);
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
 }
 
 
