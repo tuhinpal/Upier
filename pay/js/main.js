@@ -22,7 +22,7 @@ if (virpa == null) {
 	}
 
 	document.getElementById("vpa").innerHTML = vpa;
-	document.getElementById("qrcode").src = "https://svgqr.upier.tk/fg=000000/bg=ffffff/max=100?" + upilink;
+	document.getElementById("qrcode").src = "https://svgqr.upier.org/fg=000000/bg=ffffff/max=100?" + upilink;
 	document.getElementById("upibtn").href = upilink;
 
 }
