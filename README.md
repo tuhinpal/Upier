@@ -17,11 +17,10 @@
 *iv.  Works with all UPI App.*<br>
 *v.  Cool and Easy to Use Interface.*<br>
 *vi.   No Tracking Script & Totally Ads free.*<br>
-*vii. Configured for Multi Server Uses (Pay System in Another Server).* <br>
 
 ### Best uses:<br>
 
-*This will help Local Businesses to recieve their Payment via UPI Link. Because this is [MIT Licenced ](https://github.com/cachecleanerjeet/Upier/blob/master/LICENSE "MIT Licenced ")you can customize it however you need & impliment on your Business .*<br><br>
+*This will help Local Businesses to recieve their Payment via UPI Link. Because this is [MIT Licenced ](https://github.com/cachecleanerjeet/Upier/blob/master/LICENSE "MIT Licenced ")you can customize it however you need & impliment on your Business.*<br><br>
 
 ### Deploy: <br>
 *Everthing is pre-configured, You can just deploy it on Vercel* <br>
