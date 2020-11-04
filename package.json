@@ -1,0 +1,19 @@
+{
+    "name": "upier",
+    "version": "2.0.0",
+    "description": "Shareable Payment's Link for UPI",
+    "main": "api/index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cachecleanerjeet/Upier.git"
+    },
+    "author": "Tuhin Kanti Pal",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cachecleanerjeet/Upier/issues"
+    },
+    "homepage": "https://github.com/cachecleanerjeet/Upier#readme",
+    "dependencies": {
+        "qrcode-svg": "^1.1.0"
+    }
+}

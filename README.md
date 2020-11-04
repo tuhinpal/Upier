@@ -24,20 +24,12 @@
 *This will help Local Businesses to recieve their Payment via UPI Link. Because this is [MIT Licenced ](https://github.com/cachecleanerjeet/Upier/blob/master/LICENSE "MIT Licenced ")you can customize it however you need & impliment on your Business .*<br><br>
 
 ### Deploy: <br>
-*1. Download the Source Upload it on Server.* <br>
-*2. Replace with your domain name in <tt>domain_name </tt> section under <tt>js/main.js* </tt>.<br>
-*3. Open <tt>pay/js/main.js</tt> and Change the Qr Code Generator URL.* <br>
+*Everthing is pre-configured, You can just deploy it on Vercel* <br>
 
-```javascript
-##Example
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fcachecleanerjeet%2FUpier)
 
-###Previously
-document.getElementById("qrcode").src = "https://svgqr.upier.tk/fg=000000/bg=ffffff/max=100?" + upilink;
+<br>
 
-###After Replace with Your Own
-document.getElementById("qrcode").src = "https://example.com/fg=000000/bg=ffffff/max=100?" + upilink;
-```
-*4. Create Your own Qr Generator Workers, [Installation Instruction Here](https://github.com/u32i64/qr-worker "Here").* <br>
 **You can Customize it However you Like**👍. **But don't Forget to give a Footer Credit**😉.<br><br>
 
 
