@@ -12,6 +12,16 @@ body {
     background: #ffffff;
 }
 
+.consent {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 .headerdiv {
     margin-left: auto;
     margin-right: auto;
@@ -26,7 +36,6 @@ body {
     margin-right: auto;
     margin-top: 10px;
     width: 340px;
-    height: 600px;
     background: #f2f2f2;
     border-radius: 10px;
 }

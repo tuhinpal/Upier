@@ -1,86 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="author" content="Tuhin Kanti Pal">
-      <title>Create | Upier</title>
-	  <meta name="description" content="Shareable Payment's Link for UPI">
-      <meta name="keywords" content="UPI, Shareable UPI Link, Upi Shareable Link , Share UPI Payment's Link, Free Shareable UPI Link, UPI Payment">
-      <link href="https://fonts.googleapis.com/css?family=Poppins|Krona+One" rel="stylesheet" />
-      <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@900&display=swap" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet" />
-      <link rel="shortcut icon" href="img/favicon.ico">
-   </head>
-   <body onload="hideF()">
-      <div id="header" class="headerdiv">
-         <h1 class="heading">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Tuhin Kanti Pal">
+    <title>Create | Upier</title>
+    <meta name="description" content="Shareable Payment's Link for UPI">
+    <meta name="keywords" content="UPI, Shareable UPI Link, Upi Shareable Link , Share UPI Payment's Link, Free Shareable UPI Link, UPI Payment">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Krona+One" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@900&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body onload="hideF()">
+    <div id="header" class="headerdiv">
+        <h1 class="heading">
             Create
-         </h1>
-         <img  src="img/share.svg" class="shareicon" width="32" height="36" onclick="share();">
-      </div>
-      <div id="content" class="contentdiv">
-         <h1 class="headingw">
+        </h1>
+        <img src="img/share.svg" class="shareicon" width="32" height="36" onclick="share();">
+    </div>
+    <div id="content" class="contentdiv">
+        <h1 class="headingw">
             Create Shareable Link for UPI Payment
-         </h1>
-         <div id ="inputd" class="inputdiv">
+        </h1>
+        <div id="inputd" class="inputdiv">
             <div class="center">
-               <p class="pdetailupiid">
-                  Enter Your VPA (UPI ID)
-               </p>
-               <input type="text" id="vpa" placeholder="UPI ID" class="inputbox">
+                <p class="pdetailupiid">
+                    Enter Your VPA (UPI ID)
+                </p>
+                <input type="text" id="vpa" placeholder="UPI ID" class="inputbox">
             </div>
             <div class="amountdiv">
-               <p class="pdetailamount">
-                  Amount = <input type="number" id="amount" placeholder="₹" class="amountbox"> ₹
-               </p>
-               <p class="vsmalltext">
-                  (Optional)
-               </p>
+                <p class="pdetailamount">
+                    Amount = <input type="number" id="amount" placeholder="₹" class="amountbox"> ₹
+                </p>
+                <p class="vsmalltext">
+                    (Optional)
+                </p>
             </div>
             <div class="center">
-               <a onclick="genLink();" class="createb">C R E A T E</a>
-               <p id="invalid" class="invalidtext">
-                  * Invalid VPA
-               </p>
+                <a onclick="genLink();" class="createb">C R E A T E</a>
+                <p id="invalid" class="invalidtext">
+                    * Invalid VPA
+                </p>
             </div>
-         </div>
-         <div id = "outputd" class="outputdiv">
+        </div>
+        <div id="outputd" class="outputdiv">
             <p class="paymentlinktxt">
-               Send this link to Recieve Payment
+                Send this link to Recieve Payment
             </p>
             <div class="center">
-               <input type="text" id="outlink" readonly="true" class="inputbox">
-               <p id="copiedtext" class="copiedtxt">
-                  Copied.
-               </p>
-               <a onclick="copyLink();" class="createb">C O P Y</a>
+                <input type="text" id="outlink" readonly="true" class="inputbox">
+                <p id="copiedtext" class="copiedtxt">
+                    Copied.
+                </p>
+                <a onclick="copyLink();" class="createb">C O P Y</a>
             </div>
-         </div>
-         <div>
+        </div>
+        <div>
             <p class="smalltext">
-               If you have any Question about security or privacy, Check our<br><a href="/tos">T O S</a>. Also you can check this <a href="https://github.com/cachecleanerjeet/Upier">Open Source Project</a> to know how this system works.
+                If you have any Question about security or privacy, Check our<br><a href="/tos">T O S</a>. Also you can check this <a href="https://github.com/cachecleanerjeet/Upier">Open Source Project</a> to know how this system works.
             </p>
             <p class="gocless"># Go Cashless</p>
             <p class="india">Made in 🇮🇳 for 🇮🇳</p>
-         </div>
-         <div id="footer" class="footerdiv">
+        </div>
+        <div id="footer" class="footerdiv">
             <h1 class="logo">
-               U P I E R
+                U P I E R
             </h1>
             <p class="slogan">
-               Shareable Payment's Link for <img src="img/upi.svg" class="upilogo" width="40" >
+                Shareable Payment's Link for <img src="img/upi.svg" class="upilogo" width="40">
             </p>
-            <p class="tpf" onclick="window.location.href='/tos';"><u>T O S</u></p>
+            <p class="tpf" onclick="window.location.href='/privacy-policy';"><u>Privacy Policy</u></p>
             <p class="tuhin" onclick="window.location.href='https://tu.hin.life';">
-               An Open Source Project by Tuhin
+                An Open Source Project by Tuhin
             </p>
             <img src="img/github.svg" class="center" width="35" onclick="window.location.href='https://github.com/cachecleanerjeet/Upier';">
-         </div>
-      </div>
-   </body>
-   <script src="js/main.js"></script>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+
 </html>
-<!Made by Tuhin. Send Mail to me[at]mailtuhin[dot]ml for contact.>
-<!upier.org is the official domain for github.com/cachecleanerjeet/Upier>
+<!--Made by Tuhin. Send Mail to me[at]mailtuhin[dot]ml for contact.-->
+<!--upier.org is the official domain for github.com/cachecleanerjeet/Upier-->
