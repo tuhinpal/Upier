@@ -25,8 +25,10 @@
 ### Deploy: <br>
 *Everthing is pre-configured, You can just deploy it on Vercel* <br>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fcachecleanerjeet%2FUpier)
-
+- Fork this Repo
+- Goto <tt>https://vercel.com</tt>
+- Connect with your Forked Repo
+- Deploy
 <br>
 
 **You can Customize it However you Like**👍. **But don't Forget to give a Footer Credit**😉.<br><br>
