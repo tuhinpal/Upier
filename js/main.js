@@ -57,6 +57,11 @@ function share() {
     }
 }
 
+if (parser.hostname !== "upier.t-ps.net") {
+    window.location.href = "#domainExpiring";
+}
+
+
 /*!
  * Made by Tuhin Kanti Pal
  * Visit https://tu.hin.life
