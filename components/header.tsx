@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Link from "next/link";
+import Image from "next/image";
 
 interface Props {
   title?: string;
@@ -28,14 +29,16 @@ const Header: NextPage<Props> = (props) => {
   return (
     <header className="header">
       <h1 className="title">{props.title}</h1>
-      <Link href={"/"}>
-        <img
-          src={`/images/${props.share ? "share" : "plus"}.svg`}
-          className="icon"
-          width="30"
-          height="30"
-          onClick={share}
-        />
+      <Link href={"/"} passHref>
+        <div className="icon">
+          <Image
+            src={`/images/${props.share ? "share" : "plus"}.svg`}
+            alt="Share | Create"
+            width="30"
+            height="30"
+            onClick={share}
+          />
+        </div>
       </Link>
     </header>
   );

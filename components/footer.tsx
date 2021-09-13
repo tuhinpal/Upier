@@ -6,16 +6,26 @@ const Footer: NextPage = () => {
     <footer className="footer">
       <h1 className="logo">U P I E R</h1>
       <p className="slogan">
-        Shareable Payment's Link for{" "}
-        <img src="/images/upi.svg" className="upilogo" width="40" />
+        Shareable Payment&apos;s Link for{" "}
+        <img
+          src="/images/upi.svg"
+          className="upilogo"
+          width="40"
+          alt="Upi Icon"
+        />
       </p>
       <p className="tpf">
-        <Link href={"/privacy-policy"}>
+        <Link href={"/privacy-policy"} passHref>
           <u>Privacy Policy</u>
         </Link>
       </p>
       <p className="tuhin">An Open Source Project by Tuhin</p>
-      <img src="/images/github.svg" className="center" width="35" />
+      <img
+        src="/images/github.svg"
+        className="center"
+        width="35"
+        alt="Tuhin's Github"
+      />
     </footer>
   );
 };
