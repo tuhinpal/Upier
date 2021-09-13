@@ -1,0 +1,56 @@
+.pay {
+    padding: 35px 0px;
+    margin-top: 10px;
+    .qrsvg {
+        padding-top: 25px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 6%;
+        width: 210px;
+        height: 210px;
+        padding: 25px;
+        background-color: #ffffff;
+    }
+    .computerprompt {
+        color: #000000;
+        font-size: 6px;
+        font-weight: bold;
+        text-align: center;
+        transform: translate(0px, -22px);
+        padding-bottom: 15px;
+    }
+    .payingtext {
+        color: #ffffff;
+        font-family: Krona One;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .vpatext {
+        font-size: 12px;
+    }
+    .paybutton {
+        background: linear-gradient(to bottom, #ffffff 5%, #f2f2f2 100%);
+        background-color: #ffffff;
+        border-radius: 8px;
+        border: 2px solid #ffffff;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px 57px;
+        text-decoration: none;
+        transform: translate(0px, 25px);
+        margin-bottom: 35px;
+        &:hover {
+            background: linear-gradient(to bottom, #f2f2f2 5%, #ffffff 100%);
+            background-color: #f2f2f2;
+        }
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+}

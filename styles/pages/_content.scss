@@ -1,0 +1,170 @@
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    width: 340px;
+    background: #000000;
+    border-radius: 10px;
+    .heading {
+        color: #ffffff;
+        font-family: Krona One;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        padding: 22px 20px;
+    }
+    .center {
+        cursor: pointer;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .generate {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 310px;
+        height: 270px;
+        background: #ffffff;
+        color: #000000;
+        border-radius: 13px;
+        .pdetailupiid {
+            font-family: Krona One;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 25px;
+            padding-right: 20px;
+            padding-bottom: 2px;
+            padding-left: 20px;
+        }
+        .amountdiv {
+            margin-left: auto;
+            margin-right: auto;
+            width: 240px;
+            height: 50px;
+            background: #ffffff;
+            padding-bottom: 30px;
+            .pdetailamount {
+                color: #000000;
+                font-family: Krona One;
+                font-size: 17px;
+                font-weight: bold;
+                text-align: center;
+                padding-top: 5px;
+                padding-bottom: 2px;
+            }
+            .amountbox {
+                width: 70px;
+                height: 35px;
+            }
+            .vsmalltext {
+                color: #000000;
+                font-size: 8px;
+                font-weight: bold;
+                text-align: left;
+                transform: translate(35px, -25px);
+            }
+        }
+        input {
+            font-size: 18px;
+            border-width: 1px;
+            border-color: #000000;
+            background-color: #f0f0f0;
+            color: #000000;
+            border-style: none;
+            padding: 0px 13px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 15px;
+            &:focus {
+                outline: none;
+            }
+        }
+        .inputbox {
+            width: 240px;
+            height: 40px;
+        }
+        .createbutton {
+            border: none;
+            background: linear-gradient(to bottom 5%, #827982 100%);
+            background-color: #212021;
+            border-radius: 10px;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 25px;
+            &:hover {
+                background: linear-gradient(to bottom, #827982 5%, #212021 100%);
+                background-color: #827982;
+            }
+            &:active {
+                position: relative;
+                top: 1px;
+            }
+        }
+        .invalidtext {
+            color: #000000;
+            font-family: Poppins;
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+            transform: translate(0px, -142px);
+        }
+        .paymentlinktxt {
+            color: #000000;
+            font-family: Krona One;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 40px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+        }
+        .upmargin {
+            margin-top: 20px;
+        }
+        .copied {
+            color: #000000;
+            font-family: Poppins;
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+            transform: translate(0px, -5px);
+            padding-top: 5px;
+        }
+    }
+    .additionaldata {
+        color: #fdfdfd;
+        .additionaltext {
+            font-size: 10px;
+            text-align: center;
+            transform: translate(0px, 0px);
+            padding-top: 20px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            a {
+                text-decoration: none;
+                color: #6e87b6;
+            }
+        }
+        .hashtag {
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .india {
+            font-size: 6px;
+            text-align: center;
+            transform: translate(0px, -25px);
+        }
+    }
+}

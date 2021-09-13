@@ -1,0 +1,21 @@
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 340px;
+    height: 50px;
+    background: white;
+    display: flex;
+    align-items: center;
+    .title {
+        color: #000000;
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .icon {
+        margin-left: auto;
+        cursor: pointer;
+    }
+}
