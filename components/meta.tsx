@@ -32,7 +32,7 @@ const Meta: NextPage<Props> = (props) => {
     <Head>
       <title>{props.title || defaultData.sitename}</title>
       <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width,initial-scale=0.9" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
       <meta name="theme-color" content="#000" />
       <meta
         name="description"
