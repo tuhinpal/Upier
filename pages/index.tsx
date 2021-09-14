@@ -151,8 +151,7 @@ const Index: NextPage = () => {
           {/* Additional data section start */}
           <div className="additionaldata">
             <p className="additionaltext">
-              If you have any questions about security or privacy, Check our
-              <br />
+              If you have any questions about security or privacy, Check our{" "}
               <Link href="/tos">T O S</Link>. You can also check this{" "}
               <a href="https://github.com/cachecleanerjeet/Upier">
                 Open Source Project
