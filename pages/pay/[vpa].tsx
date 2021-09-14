@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 import Meta from "../../components/meta";
+import * as gtag from "../../analytic/gtag";
 
 const Pay: NextPage = () => {
   const router = useRouter();
@@ -27,7 +28,20 @@ const Pay: NextPage = () => {
           <p className="payingtext">to</p>
           <p className="payingtext vpatext">{router.query.vpa}</p>
           <div className="center">
-            <a href={deeplink} className="paybutton">
+            <a
+              href={deeplink}
+              className="paybutton"
+              onClick={(): any => {
+                gtag.event({
+                  action: "clicked_pay_button",
+                  category: "engagement",
+                  label: `Vpa: ${router.query.vpa} - Amount: ${
+                    router.query.am || "null"
+                  }`,
+                  value: `Clicked on Deep Link by user`,
+                });
+              }}
+            >
               P A Y
             </a>
           </div>

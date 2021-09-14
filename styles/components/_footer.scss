@@ -39,6 +39,10 @@
         text-align: center;
         transform: translate(0px, -5px);
         padding-top: 2px;
+        a {
+            text-decoration: none;
+            color: #6e87b6;
+        }
     }
     .center {
         cursor: pointer;

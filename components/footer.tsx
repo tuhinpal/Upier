@@ -19,12 +19,17 @@ const Footer: NextPage = () => {
           <u>Privacy Policy</u>
         </Link>
       </p>
-      <p className="tuhin">An Open Source Project by Tuhin</p>
+      <p className="tuhin">
+        An Open Source Project by{" "}
+        <a href="http://thetuhin.com/?ref=upier" target="_blank" rel="upier">
+          Tuhin
+        </a>
+      </p>
       <img
         src="/images/github.svg"
         className="center"
         width="35"
-        alt="Tuhin's Github"
+        alt="Github"
       />
     </footer>
   );

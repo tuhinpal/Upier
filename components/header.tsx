@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Link from "next/link";
+import * as gtag from "../analytic/gtag";
 
 interface Props {
   title?: string;
@@ -13,8 +14,14 @@ const Header: NextPage<Props> = (props) => {
         if (navigator.share) {
           await navigator.share({
             title: "Share | Upier",
-            text: "*Upier* \n\nShareable Secure Payment's Link for UPI :\n",
+            text: "Upier Shareable Secure Payment's Link for UPI :\n",
             url: window.location.href,
+          });
+          gtag.event({
+            action: "clicked_share",
+            category: "engagement",
+            label: `Shared by user`,
+            value: `User clicked share`,
           });
         } else {
           throw new Error("Web share is not sipported !");

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import Meta from "../components/meta";
+import * as gtag from "../analytic/gtag";
 
 interface Input {
   vpa: string;
@@ -46,6 +47,12 @@ const Index: NextPage = () => {
         url: `${window.location.protocol}//${
           window.location.hostname
         }/pay/${vpa}${amount && amount > 0 ? "?am=" + amount : ""}`,
+      });
+      gtag.event({
+        action: "create_payment_link",
+        category: "engagement",
+        label: `Vpa: ${vpa} - Amount: ${amount || "null"}`,
+        value: `Created payment Deep Link by user`,
       });
     } else {
       setinvalid({

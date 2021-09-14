@@ -16,7 +16,6 @@ _ii. Support Amount Set._<br>
 _iii. Have QR Suppport for Scan & Pay._<br>
 _iv. Works with all UPI App._<br>
 _v. Cool and Easy to Use Interface._<br>
-_vi. No Tracking Script & Totally Ads free._<br>
 
 ### Best uses:<br>
 
