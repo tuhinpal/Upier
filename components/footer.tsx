@@ -21,7 +21,11 @@ const Footer: NextPage = () => {
       </p>
       <p className="tuhin">
         An Open Source Project by{" "}
-        <a href="http://thetuhin.com/?ref=upier" target="_blank" rel="upier">
+        <a
+          href="http://thetuhin.com/?ref=upier"
+          target="_blank"
+          rel="noreferrer"
+        >
           Tuhin
         </a>
       </p>
