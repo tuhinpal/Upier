@@ -23,11 +23,13 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
+        id="gtag_main"
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
       />
       <Script
         strategy="afterInteractive"
+        id="gtag_init"
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
