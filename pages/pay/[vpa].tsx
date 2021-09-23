@@ -8,11 +8,15 @@ import * as gtag from "../../analytic/gtag";
 
 const Pay: NextPage = () => {
   const router = useRouter();
-  const deeplink = `upi://pay?pa=${
-    router.query.vpa
-  }&pn=withUpier&mc=Upier&tr=${Math.ceil(
-    new Date().getTime() / 1000
-  )}&tn=withUpier&cu=INR${router.query.am ? `&am=${router.query.am}` : ""}`;
+  const deeplink = `upi://pay?pn=withUpier&pa=${router.query.vpa}&cu=INR${
+    router.query.am
+      ? `&am=${
+          router.query.am.includes(".")
+            ? router.query.am
+            : `${router.query.am}.0`
+        }`
+      : ""
+  }`;
 
   return (
     <>
@@ -32,6 +36,8 @@ const Pay: NextPage = () => {
           <div className="center">
             <a
               href={deeplink}
+              target="_blank"
+              rel="noopener noreferrer"
               className="paybutton"
               onClick={(): any => {
                 gtag.event({
