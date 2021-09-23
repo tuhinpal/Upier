@@ -5,15 +5,12 @@ import Footer from "../../components/footer";
 import Header from "../../components/header";
 import Meta from "../../components/meta";
 import * as gtag from "../../analytic/gtag";
-const { v4: uuidv4 } = require("uuid");
 
 const Pay: NextPage = () => {
   const router = useRouter();
-  const deeplink = `upi://pay?pa=${
-    router.query.vpa
-  }&pn=withUpier&mc=Upier&tr=${uuidv4()}&tn=withUpier&cu=INR${
-    router.query.am ? `&am=${router.query.am}` : ""
-  }`;
+  const deeplink = `upi://pay?pa=${router.query.vpa}&pn=withUpier&mc=Upier&tr=${
+    new Date().getTime() / 1000
+  }&tn=withUpier&cu=INR${router.query.am ? `&am=${router.query.am}` : ""}`;
 
   return (
     <>
