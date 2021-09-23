@@ -8,9 +8,11 @@ import * as gtag from "../../analytic/gtag";
 
 const Pay: NextPage = () => {
   const router = useRouter();
-  const deeplink = `upi://pay?pa=${router.query.vpa}&pn=withUpier&mc=Upier&tr=${
+  const deeplink = `upi://pay?pa=${
+    router.query.vpa
+  }&pn=withUpier&mc=Upier&tr=${Math.ceil(
     new Date().getTime() / 1000
-  }&tn=withUpier&cu=INR${router.query.am ? `&am=${router.query.am}` : ""}`;
+  )}&tn=withUpier&cu=INR${router.query.am ? `&am=${router.query.am}` : ""}`;
 
   return (
     <>
