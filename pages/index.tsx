@@ -152,7 +152,7 @@ const Index: NextPage = () => {
           <div className="additionaldata">
             <p className="additionaltext">
               If you have any questions about security or privacy, Check our{" "}
-              <Link href="/tos">T O S</Link>. You can also check this{" "}
+              <Link href="/tos">TOS</Link>. You can also check this{" "}
               <a href="https://github.com/cachecleanerjeet/Upier">
                 Open Source Project
               </a>{" "}
