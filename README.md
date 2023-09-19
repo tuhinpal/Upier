@@ -1,9 +1,9 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/cachecleanerjeet/Upier"><img src="https://firebasestorage.googleapis.com/v0/b/webtuhin.appspot.com/o/githubstatic%2Fupier.svg?alt=media&token=43bd247f-4737-40be-8a15-1a145a17652d" alt="Upier" width="300"></a>
+  <a href="https://github.com/tuhinpal/Upier"><img src="https://firebasestorage.googleapis.com/v0/b/webtuhin.appspot.com/o/githubstatic%2Fupier.svg?alt=media&token=43bd247f-4737-40be-8a15-1a145a17652d" alt="Upier" width="300"></a>
 </h1>
 <h4 align="center"><a href="https://github.com/cachecleanerjeet/Upier" target="_blank">Upier</a> is a Free and Secure Plartform to Create & Share UPI Payment's Link
- <br> <br> <a href="https://upier.t-ps.net" align="center"><img src="https://img.shields.io/badge/create--a--payment--link-green?style=for-the-badge" alt="Upier" ></a>
+ <br> <br> <a href="https://upier.vercel.app" align="center"><img src="https://img.shields.io/badge/create--a--payment--link-green?style=for-the-badge" alt="Upier" ></a>
 </h4>
 
 <br>
