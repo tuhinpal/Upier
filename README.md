@@ -2,7 +2,7 @@
   <br>
   <a href="https://github.com/tuhinpal/Upier"><img src="https://firebasestorage.googleapis.com/v0/b/webtuhin.appspot.com/o/githubstatic%2Fupier.svg?alt=media&token=43bd247f-4737-40be-8a15-1a145a17652d" alt="Upier" width="300"></a>
 </h1>
-<h4 align="center"><a href="https://github.com/cachecleanerjeet/Upier" target="_blank">Upier</a> is a Free and Secure Plartform to Create & Share UPI Payment's Link
+<h4 align="center"><a href="https://github.com/tuhinpal/Upier" target="_blank">Upier</a> is a Free and Secure Plartform to Create & Share UPI Payment's Link
  <br> <br> <a href="https://upier.vercel.app" align="center"><img src="https://img.shields.io/badge/create--a--payment--link-green?style=for-the-badge" alt="Upier" ></a>
 </h4>
 
@@ -19,7 +19,7 @@ _v. Cool and Easy to Use Interface._<br>
 
 ### Best uses:<br>
 
-_This will help Local Businesses to recieve their Payment via UPI Link. Because this is [MIT Licenced ](https://github.com/cachecleanerjeet/Upier/blob/master/LICENSE "MIT Licenced ")you can customize it however you need & impliment on your Business._<br><br>
+_This will help Local Businesses to recieve their Payment via UPI Link. Because this is [MIT Licenced ](https://github.com/tuhinpal/Upier/blob/master/LICENSE "MIT Licenced ")you can customize it however you need & impliment on your Business._<br><br>
 
 ### Deploy: <br>
 
@@ -34,7 +34,7 @@ _This will help Local Businesses to recieve their Payment via UPI Link. Because 
 ### Credits:
 
 Idea from [Upayi](https://github.com/cyberboysumanjay/upayi "Upayi") by [Sumanjay](https://github.com/cyberboysumanjay/ "Sumanjay")<br>
-Designed & Developed to [Me (Tuhin)](https://github.com/cachecleanerjeet "Me (Tuhin)")
+Designed & Developed to [Me (Tuhin)](https://github.com/tuhinpal "Me (Tuhin)")
 
 <br><br>
 
