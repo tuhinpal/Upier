@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer: NextPage = () => {
   return (
     <footer className="footer">
-      <h1 className="logo">U P I E R</h1>
+      <h1 className="logo">MoPhO</h1>
       <p className="slogan">
         Shareable Payment&apos;s Link for{" "}
         <img
@@ -19,7 +19,7 @@ const Footer: NextPage = () => {
           <u>Privacy Policy</u>
         </Link>
       </p>
-      <p className="tuhin">
+      <p className="MoPhO">
         An Open Source Project by{" "}
         <a
           href="http://thetuhin.com/?ref=upier"

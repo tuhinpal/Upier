@@ -14,7 +14,7 @@ const Header: NextPage<Props> = (props) => {
         if (navigator.share) {
           await navigator.share({
             title: "Share | Upier",
-            text: "Upier Shareable Secure Payment's Link for UPI :\n",
+            text: "MoPhO Secure Payment Link for UPI :\n",
             url: window.location.href,
           });
           gtag.event({

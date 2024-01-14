@@ -3,13 +3,13 @@ import Head from "next/head";
 import image from "../helper/image";
 
 const defaultData = {
-  description: "Shareable Payment's Link for UPI",
+  description: "MoPhO Payment Link for UPI",
   keywords:
     "UPI, Shareable UPI Link, Upi Shareable Link , Share UPI Payment's Link, Free Shareable UPI Link, UPI Payment",
-  copyright: "Upier",
+  copyright: "MoPhO",
   topic: "Payment",
-  sitename: "Upier",
-  email: "me@thetuhin.com",
+  sitename: "MoPhO",
+  email: "admin@mopho.in",
   url: "https://upier.t-ps.net/",
   ogImage: image("Create a shareable deeplink for UPI Payment", 50),
 };
